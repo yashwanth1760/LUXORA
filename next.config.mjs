@@ -13,10 +13,11 @@ const nextConfig = {
   experimental: {
     serverActions: {
       bodySizeLimit: "5mb",
-    }
+    },
+    turbo: false, // ✅ disable Turbopack
   },
 
-  turbopack: {}, // optional: remove if not using Turbopack
+  // optional: remove if not using Turbopack
 };
 
 export default nextConfig;
