@@ -102,7 +102,7 @@ export default function Home() {
       <section className="py-10 bg-gradient-to-br from-white via-yellow-10 to-yellow-50 ">
         <div className="container mx-auto px-10">
           <h2 className="text-3xl text-center font-bold mb-10">
-            How it's work
+             How it&apos;s work
           </h2>
           <div className="grid grid-cols-1 gap-12   md:grid-cols-3">
             {howItWorksData.map((work, index) => (
