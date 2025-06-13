@@ -14,7 +14,7 @@ const nextConfig = {
     serverActions: {
       bodySizeLimit: "5mb",
     },
-    turbo: false, // ✅ disable Turbopack
+    turbo: {}, // ✅ disable Turbopack
   },
 
   // optional: remove if not using Turbopack
