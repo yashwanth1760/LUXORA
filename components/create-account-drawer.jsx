@@ -65,7 +65,7 @@ const CreateAccountDrawer = ({ children }) => {
       reset();
       setOpen(false);
     }
-  }, [newAccount, CreateAccountLoading]);
+  }, [newAccount, CreateAccountLoading, reset]);
 
   useEffect(() => {
     if (error) {
